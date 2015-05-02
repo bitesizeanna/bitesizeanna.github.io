@@ -1,7 +1,45 @@
-h1, p {
-	color: #ffff00;
-		}
+
 
 body {
-	background-color: black;
+	text-align: center;
+	background-color: rgba(232,228,228,0.9);
+	font-family: "Times New Roman", serif;
+
 }
+
+h1 {
+	font-family: Trebuchet, sans-serif;
+	font-weight: bold;
+	font-size: 40px;
+	text-transform: uppercase;
+	color: #d02230;
+}
+
+img {
+	border: solid;
+
+}
+
+p {
+	margin-right: 300px;
+	margin-left: 300px;
+	}
+
+#slogan {
+		font-style:italic;
+		font-family: Trebuchet, sans-serif;
+		font-size: 20px;
+		line-height: 50px;
+	}
+
+ul {
+	display: inline-block;
+	text-align: left;
+}
+
+a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: Trebuchet, sans-serif;
+}
+
