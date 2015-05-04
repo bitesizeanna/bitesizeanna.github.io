@@ -2,9 +2,9 @@
 
 body {
 	text-align: center;
-	background-color: rgba(232,228,228,0.9);
+	background: url("../images/lightpaperfibers.png");
 	font-family: "Times New Roman", serif;
-
+	background-repeat: repeat;
 }
 
 h1 {
@@ -17,7 +17,6 @@ h1 {
 
 img {
 	border: solid;
-
 }
 
 p {
@@ -43,3 +42,6 @@ a {
 	font-family: Trebuchet, sans-serif;
 }
 
+a:hover{
+	color: #d02230;
+}
