@@ -1,0 +1,377 @@
+
+body {
+	font-size: 20px;
+	font-family: 'Sintony', sans-serif;
+}
+
+/***************************
+HEADER
+****************************/
+
+#header-home {
+	background-image: url("../images/tranquil-coffee-wide.jpg");
+	background-size: cover;
+	width: 100%;
+	height: 550px;
+}
+
+#header-about {
+	background-image: url("../images/coffee-about.jpg");
+	background-size: cover;
+	width: 100%;
+	height: 550px;
+}
+
+#header-menu {
+	background-image: url("../images/delicious-cake-image-reversed.jpg");
+	background-size: cover;
+	width: 100%;
+	height: 550px;
+}
+
+#header-coffee {
+	background-image: url("../images/coffee-pouring-main.jpg");
+	background-size: cover;
+	width: 100%;
+	height: 550px;
+}
+
+#header-opportunities {
+	background-image: url("../images/pouring-milk-main.jpg");
+	background-size: cover;
+	width: 100%;
+	height: 550px;
+}
+
+#logo {
+	background-color: white;
+	margin-left: 1.5em;
+	margin-top: 1.5em;
+}
+
+nav {
+	width: 400px;
+	float: left;
+	margin-top: 0.5em;
+}
+
+nav a {
+	display: block;
+	text-decoration: none;
+	text-transform: uppercase;	
+	margin: 15px;
+	margin-top: 10px;
+	margin-left: 30px;
+	width: 400px;
+	height: 35px;
+	padding-top: 2px;
+	color: white;
+	text-align: center;
+	font-size: 0.8em;
+	line-height: 2em;
+	background-color: black;
+}
+
+nav a:hover {
+	color: black;
+	background-color: white;
+}
+
+
+.divider {
+	clear: both;
+	width: 100%;
+	background-color: black;
+	height: 70px;
+	text-align: center;
+	margin-top: -20px;
+}
+
+h2 {
+	color: white;
+	font-size: 1.3em;
+	text-transform: uppercase;
+	font-family: 'Rufina', serif;
+	letter-spacing: 1px;
+}
+
+/**************************************
+TOP PAGE CONTENT
+****************************************/
+
+.divider h2 {
+	padding: 20px;
+	margin: auto;
+	margin-top: -10px;
+}
+
+/***********************************
+HOME PAGE
+************************************/
+
+.content-type-1 {
+	clear: both;
+	width: 96%;
+	background-color: white;
+	margin: auto;
+	padding-left: 4%;
+
+}
+
+.box-1, .box-2, .box-3, .box-4 {
+	float: left;
+	width: 20%;
+	text-align: center;
+	font-size: 1em;
+	line-height: 1.5em;
+	padding: 1em;
+	margin: auto;
+}
+
+h3 {
+	margin: 10px auto;
+	padding-top: 0;
+	font-family: 'Rufina', serif;
+	font-size: 1.4em;
+	line-height: 2em;
+	padding-top: 1em;
+}
+
+p {
+	padding: 5px 0;
+	margin: 5px 0;
+	line-height: 1.5em;
+}
+
+/*********************************
+ABOUT / OPPORTUNITIES
+**********************************/
+
+.content-type-3 {
+	width: 100%;
+	background-color: white;
+	text-align: center;
+}
+
+/*********************************
+MENU / COFFEE - 2 column layout
+**********************************/
+
+.column-1, .column-2 {
+	width: 40%;
+	float: left;
+}
+
+
+.column-1 h3, .column-2 h3 {
+	text-align: center;
+}
+
+.column-1 p, .column-2 p {
+	font-family: sans-serif;
+	line-height: 1.5em;
+	padding: 0;
+	margin: 20px 0;
+	line-height: 1em;
+	text-align: center;
+}
+
+.content-type-4 ul {
+	list-style-type: none;
+	text-indent: none;
+	margin-top: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.price {
+	font-weight: bold;
+}
+
+hr {
+	visibility: hidden;
+	margin: 0;
+	padding: 0;
+}
+
+/******************************************
+HOME PAGE BOTTOM CONTENT
+******************************************/
+
+.content-type-2 {
+	clear: both;
+	background-image: url("../images/delicious-cake-image.jpg");
+	height: 550px;
+}
+
+.text-box {
+	display: block;
+	float: right;
+	color: white;
+	width: 40%;
+	padding-right: 20px;
+}
+
+.text-box h2 {
+	padding-top: 60px;
+	font-size: 2em;
+}
+
+.text-box p {
+	line-height: 1.5em;
+	margin-bottom: 30px;
+}
+
+
+.text-box a {
+	font-size: 0.8em;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 800;
+	padding: 10px;
+	margin-top: 10px;
+	border-color: white;
+	margin-right: 20px;
+	box-shadow: 0 0 0 1px;
+	text-shadow: 0 0 0 1px;
+	width: 40%;
+	text-align: center;
+}
+
+.text-box a:hover {
+	color: black;
+	background-color: white;
+}
+
+/**********************************************
+FOOTER
+***********************************************/
+
+footer {
+	clear: both;
+	padding: 40px;
+	margin: auto;
+	text-align: center;
+	font-size: .7em;
+}
+
+/******************
+iPad
+*******************/
+
+@media only screen and (max-width: 900px) { 
+
+.box-1, .box-2, .box-3, .box-4 {
+	float: left;
+	width: 40%;
+	text-align: center;
+	font-size: 1em;
+	line-height: 1.5em;
+	margin: auto;
+	padding: 20px 20px
+}
+
+
+.text-box {
+	display: block;
+	background-color: rgba(0,0,0,0.5);
+	float: none;
+	text-align: center;
+	color: white;
+	width: 95%;
+	height: 550px;
+	margin: auto;
+}
+
+.text-box h2 {
+	padding: 1em;
+	font-size: 2em;
+}
+
+.text-box p {
+	clear: both;
+	width: 90%;
+	margin: 2em auto;
+	line-height: 2em;
+}
+
+
+/*********************
+IPHONE
+*********************/
+
+@media screen and (max-width: 480px) {
+
+
+nav a {
+	width: 80%;
+	float: left;
+	margin-top: 0.5em;
+}	
+
+#logo {
+	width: 83%
+}
+
+.box-1, .box-2, .box-3, .box-4 {
+	float: none;
+	width: 80%;
+	text-align: center;
+	font-size: 1em;
+	line-height: 1.5em;
+	margin: auto;
+	padding: 20px 20px
+}
+
+.content-type-1 {
+	margin-top: 30px;
+	padding-left: 0;
+
+}
+
+hr {
+	visibility: visible;
+	margin: 20px auto;
+	width:80%;
+}
+
+.text-box {
+	display: block;
+	background-color: rgba(0,0,0,0.5);
+	float: none;
+	text-align: center;
+	color: white;
+	width: 95%;
+	height: 550px;
+	margin: auto;
+}
+
+.text-box h2 {
+	padding: 1em;
+	font-size: 1.7em;
+}
+
+.text-box p {
+	clear: both;
+	width: 90%;
+	margin: 2em auto;
+	line-height: 1.5em;
+}
+
+.text-box a {
+	margin: auto;
+}
+
+.column-1, .column-2 {
+	width: 90%;
+	padding: 5%;
+	float: none;
+}
+
+/**********************************************
+!COMMENT!
+***********************************************/
+
+
+
